@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Starting bitcoind"
+exec /sbin/setuser abc bitcoind -conf=/config/bitcoin.conf -datadir=/config/.bitcoin -daemon
