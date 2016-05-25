@@ -17,7 +17,7 @@ docker create \
 	blusyn/bitcoin
 ```
 
-This container is based on phusion-baseimage with ssh removed. For shell access whilst the container is running do `docker exec -it nzbget /bin/bash`.
+This container is based on phusion-baseimage with ssh removed. For shell access whilst the container is running do `docker exec -it bitcoin /bin/bash`.
 
 **Parameters**
 
@@ -43,3 +43,7 @@ Part of what makes our containers work so well is by allowing you to specify you
 ## Notes
 Highly recommended you do NOT store bitcoin on this docker container. This is purely for purposes of running a full node.
 
+## TODO
+
+* Improve default config
+* Auto generate rpcuser and rpcpassword for config
