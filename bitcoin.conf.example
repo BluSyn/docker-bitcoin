@@ -1,3 +1,4 @@
 server=1
 maxconnections=50
 rpcallowip=127.0.0.1
+txindex=1
